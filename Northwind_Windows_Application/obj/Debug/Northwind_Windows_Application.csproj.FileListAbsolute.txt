@@ -1,0 +1,11 @@
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\bin\Debug\Northwind_Windows_Application.exe.config
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\bin\Debug\Northwind_Windows_Application.exe
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\bin\Debug\Northwind_Windows_Application.pdb
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwind_Windows_Application.csproj.AssemblyReference.cache
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwind_Windows_Application.CategoriesForm.resources
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwind_Windows_Application.MainForm.resources
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwind_Windows_Application.Properties.Resources.resources
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwind_Windows_Application.csproj.GenerateResource.cache
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwind_Windows_Application.csproj.CoreCompileInputs.cache
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwind_Windows_Application.exe
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwind_Windows_Application.pdb
