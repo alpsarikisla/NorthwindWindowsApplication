@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|c:\\users\\303\\documents\\github\\northwindwindowsapplication\\northwind_windows_application\\categoriesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|solutionrelative:northwind_windows_application\\categoriesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D653707-C38E-46E9-886E-36F6156C4B42}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\dataaccesslayer\\connectionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D653707-C38E-46E9-886E-36F6156C4B42}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\connectionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\northwind_windows_application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|solutionrelative:northwind_windows_application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D653707-C38E-46E9-886E-36F6156C4B42}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\dataaccesslayer\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D653707-C38E-46E9-886E-36F6156C4B42}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\303\\documents\\github\\northwindwindowsapplication\\dataaccesslayer\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D653707-C38E-46E9-886E-36F6156C4B42}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\northwind_windows_application\\categoriesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|solutionrelative:northwind_windows_application\\categoriesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|c:\\users\\303\\documents\\github\\northwindwindowsapplication\\northwind_windows_application\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|solutionrelative:northwind_windows_application\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\northwind_windows_application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|c:\\users\\303\\documents\\github\\northwindwindowsapplication\\northwind_windows_application\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|solutionrelative:northwind_windows_application\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D653707-C38E-46E9-886E-36F6156C4B42}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\303\\documents\\github\\northwindwindowsapplication\\dataaccesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D653707-C38E-46E9-886E-36F6156C4B42}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|c:\\users\\303\\documents\\github\\northwindwindowsapplication\\northwind_windows_application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|solutionrelative:northwind_windows_application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|c:\\users\\303\\documents\\github\\northwindwindowsapplication\\northwind_windows_application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|solutionrelative:northwind_windows_application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\northwind_windows_application\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|solutionrelative:northwind_windows_application\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\northwind_windows_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A727805-4D36-4FC7-B071-AD3E3D65E467}|Northwind_Windows_Application\\Northwind_Windows_Application.csproj|solutionrelative:northwind_windows_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,90 +34,46 @@
       "DocumentGroups": [
         {
           "DockedHeight": 226,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DataModel.cs",
               "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\DataAccessLayer\\DataModel.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\DataModel.cs",
               "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\DataAccessLayer\\DataModel.cs",
               "RelativeToolTip": "DataAccessLayer\\DataModel.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAIwDsAAAAJAAAA",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAAAKMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T09:46:38.987Z"
+              "WhenOpened": "2024-10-13T09:25:01.338Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConnectionStrings.cs",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\DataAccessLayer\\ConnectionStrings.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\ConnectionStrings.cs",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\DataAccessLayer\\ConnectionStrings.cs",
-              "RelativeToolTip": "DataAccessLayer\\ConnectionStrings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\DataAccessLayer\\Product.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Product.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\DataAccessLayer\\Product.cs",
+              "RelativeToolTip": "DataAccessLayer\\Product.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T07:37:11.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\MainForm.cs",
-              "RelativeDocumentMoniker": "Northwind_Windows_Application\\MainForm.cs",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\MainForm.cs",
-              "RelativeToolTip": "Northwind_Windows_Application\\MainForm.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAWwBgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:20:24.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriesForm.cs",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\CategoriesForm.cs",
-              "RelativeDocumentMoniker": "Northwind_Windows_Application\\CategoriesForm.cs",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\CategoriesForm.cs",
-              "RelativeToolTip": "Northwind_Windows_Application\\CategoriesForm.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAUwIoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:18:50.586Z",
+              "WhenOpened": "2024-10-13T09:14:28.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CategoriesForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\CategoriesForm.cs",
-              "RelativeDocumentMoniker": "Northwind_Windows_Application\\CategoriesForm.cs",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\CategoriesForm.cs [Design]",
-              "RelativeToolTip": "Northwind_Windows_Application\\CategoriesForm.cs [Design]",
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\MainForm.cs",
+              "RelativeDocumentMoniker": "Northwind_Windows_Application\\MainForm.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\MainForm.cs",
+              "RelativeToolTip": "Northwind_Windows_Application\\MainForm.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAArwBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:15:00.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Northwind_Windows_Application\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\LoginForm.cs [Design]",
-              "RelativeToolTip": "Northwind_Windows_Application\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:14:19.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\Program.cs",
-              "RelativeDocumentMoniker": "Northwind_Windows_Application\\Program.cs",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\Program.cs",
-              "RelativeToolTip": "Northwind_Windows_Application\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:10:50.985Z"
+              "WhenOpened": "2024-10-13T09:06:42.513Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -136,7 +84,33 @@
               "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\MainForm.cs [Design]",
               "RelativeToolTip": "Northwind_Windows_Application\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:10:45.419Z"
+              "WhenOpened": "2024-10-13T09:06:25.467Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsForm.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\ProductsForm.cs",
+              "RelativeDocumentMoniker": "Northwind_Windows_Application\\ProductsForm.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\ProductsForm.cs",
+              "RelativeToolTip": "Northwind_Windows_Application\\ProductsForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T08:47:25.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\ProductsForm.cs",
+              "RelativeDocumentMoniker": "Northwind_Windows_Application\\ProductsForm.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\NorthwindWindowsApplication\\Northwind_Windows_Application\\ProductsForm.cs [Design]",
+              "RelativeToolTip": "Northwind_Windows_Application\\ProductsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T08:36:00.67Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

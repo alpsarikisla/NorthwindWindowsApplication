@@ -31,7 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.dosyaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMI_CategoryForm = new System.Windows.Forms.ToolStripMenuItem();
-            this.ürünİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMI_UrunIslem = new System.Windows.Forms.ToolStripMenuItem();
             this.tedarikçiİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.menuStrip1.SuspendLayout();
@@ -42,7 +42,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dosyaToolStripMenuItem,
             this.TSMI_CategoryForm,
-            this.ürünİşlemleriToolStripMenuItem,
+            this.TSMI_UrunIslem,
             this.tedarikçiİşlemleriToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -63,11 +63,12 @@
             this.TSMI_CategoryForm.Text = "Kategori İşlemleri";
             this.TSMI_CategoryForm.Click += new System.EventHandler(this.TSMI_CategoryForm_Click);
             // 
-            // ürünİşlemleriToolStripMenuItem
+            // TSMI_UrunIslem
             // 
-            this.ürünİşlemleriToolStripMenuItem.Name = "ürünİşlemleriToolStripMenuItem";
-            this.ürünİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
-            this.ürünİşlemleriToolStripMenuItem.Text = "Ürün İşlemleri";
+            this.TSMI_UrunIslem.Name = "TSMI_UrunIslem";
+            this.TSMI_UrunIslem.Size = new System.Drawing.Size(92, 20);
+            this.TSMI_UrunIslem.Text = "Ürün İşlemleri";
+            this.TSMI_UrunIslem.Click += new System.EventHandler(this.TSMI_UrunIslem_Click);
             // 
             // tedarikçiİşlemleriToolStripMenuItem
             // 
@@ -106,7 +107,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem dosyaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TSMI_CategoryForm;
-        private System.Windows.Forms.ToolStripMenuItem ürünİşlemleriToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TSMI_UrunIslem;
         private System.Windows.Forms.ToolStripMenuItem tedarikçiİşlemleriToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
     }

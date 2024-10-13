@@ -122,6 +122,75 @@ namespace DataAccessLayer
             }
         }
 
+        public bool UpdateCategory(Category c)
+        {
+            try
+            {
+                cmd.CommandText = "UPDATE Categories SET CategoryName = @cn, Description = @dc WHERE CategoryID =@id";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@cn", c.CategoryName);
+                cmd.Parameters.AddWithValue("@dc", c.Description);
+                cmd.Parameters.AddWithValue("@id", c.CategoryID);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+
+        #endregion
+
+        #region Product Functions
+
+        public List<Product> GetProductList()
+        {
+            List<Product> Products = new List<Product>();
+            try
+            {
+                cmd.CommandText = "SELECT P.ProductID, P.Discontinued, P.ProductName, P.CategoryID, P.SupplierID,P.QuantityPerUnit, P.UnitsInStock, P.UnitsOnOrder, P.UnitPrice, P.ReorderLevel, C.CategoryName, S.CompanyName FROM Products AS P JOIN Categories AS C ON P.CategoryID=C.CategoryID JOIN Suppliers AS S ON P.SupplierID = S.SupplierID";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Products.Add(new Product()
+                    {
+                        ProductID = reader.GetInt32(0),
+                        Discontinued = reader.GetBoolean(1),
+                        DiscontinuedStr = !reader.GetBoolean(1) ? "Evet" : "Hayır",
+                        ProductName = reader.GetString(2),
+                        CategoryID = reader.GetInt32(3),
+                        SupplierID = reader.GetInt32(4),
+                        QuantityPerUnit = reader.IsDBNull(5) ? "-" : reader.GetString(5),
+                        UnitsInStock = reader.GetInt16(6),
+                        UnitsOnOrder = reader.GetInt16(7),
+                        UnitPrice = reader.GetDecimal(8),
+                        ReorderLevel = reader.GetInt16(9),
+                        Category = reader.GetString(10),
+                        Supplier = reader.GetString(11)
+                    });
+                }
+                return Products;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        //public List<Product> GetProductDataTable()
+        //{
+
+        //}
+
         #endregion
     }
 }

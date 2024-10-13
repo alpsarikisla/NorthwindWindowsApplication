@@ -24,6 +24,7 @@ namespace Northwind_Windows_Application
             //DataGridDataTableDataBound();
             //DataGridCollectionToDataTableDataBound();
             //UzunYolVeritabaniBaglama();
+            dataGridView1.ReadOnly = true;
         }
         public void DataGridTemelKonular()
         {
@@ -173,11 +174,39 @@ namespace Northwind_Windows_Application
             {
                 int id = Convert.ToInt32(dataGridView1.Rows[rowindex].Cells["CategoryID"].Value);
                 string name = dataGridView1.Rows[rowindex].Cells["CategoryName"].Value.ToString();
-                if (MessageBox.Show(name + " kategorisini silmek istiyor musunuz", "Kategori Siliniyor", MessageBoxButtons.YesNo)== DialogResult.Yes)
+                if (MessageBox.Show(name + " kategorisini silmek istiyor musunuz", "Kategori Siliniyor", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     dm.DeleteCategory(id);
                 }
                 dataGridView1.DataSource = dm.GetCategoryList();
+            }
+        }
+
+        private void btn_edit_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(tb_Name.Text))
+            {
+                Category c = new Category()
+                {
+                    CategoryID = Convert.ToInt32(tb_ID.Text),
+                    CategoryName = tb_Name.Text,
+                    Description = tb_description.Text
+                };
+                if (dm.UpdateCategory(c))
+                {
+                    MessageBox.Show("Kategori Düzenlendi", "Başarılı");
+                    tb_ID.Text = tb_Name.Text = tb_description.Text = "";
+                    btn_edit.Visible = false;
+                    dataGridView1.DataSource = dm.GetCategoryList();
+                }
+                else
+                {
+                    MessageBox.Show("Kategori Düzenlenirken Hata oluştu", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Kategori Adı Boş Bırakılamaz", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

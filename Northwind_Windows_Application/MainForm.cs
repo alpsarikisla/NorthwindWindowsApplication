@@ -22,6 +22,10 @@ namespace Northwind_Windows_Application
         {
             FormOpen(new CategoriesForm());
         }
+        private void TSMI_UrunIslem_Click(object sender, EventArgs e)
+        {
+            FormOpen(new ProductsForm());
+        }
         public void FormOpen(Form frm)
         {
             Form[] forms = this.MdiChildren;
@@ -41,5 +45,7 @@ namespace Northwind_Windows_Application
                 frm.Show();
             }
         }
+
+       
     }
 }

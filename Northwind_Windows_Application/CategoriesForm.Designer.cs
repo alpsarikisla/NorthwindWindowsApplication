@@ -30,18 +30,18 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tb_Name = new System.Windows.Forms.TextBox();
-            this.tb_description = new System.Windows.Forms.TextBox();
-            this.Label1 = new System.Windows.Forms.Label();
-            this.tb_ID = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.btn_edit = new System.Windows.Forms.Button();
             this.btn_Add = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Label1 = new System.Windows.Forms.Label();
+            this.tb_description = new System.Windows.Forms.TextBox();
+            this.tb_ID = new System.Windows.Forms.TextBox();
+            this.tb_Name = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.TSMI_edit = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMI_Delete = new System.Windows.Forms.ToolStripMenuItem();
-            this.btn_edit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -66,6 +66,77 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kategori Bilgileri";
             // 
+            // btn_edit
+            // 
+            this.btn_edit.Location = new System.Drawing.Point(420, 39);
+            this.btn_edit.Name = "btn_edit";
+            this.btn_edit.Size = new System.Drawing.Size(112, 23);
+            this.btn_edit.TabIndex = 2;
+            this.btn_edit.Text = "Düzenle";
+            this.btn_edit.UseVisualStyleBackColor = true;
+            this.btn_edit.Visible = false;
+            this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
+            // 
+            // btn_Add
+            // 
+            this.btn_Add.Location = new System.Drawing.Point(420, 39);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.Size = new System.Drawing.Size(112, 23);
+            this.btn_Add.TabIndex = 2;
+            this.btn_Add.Text = "Kategori Ekle";
+            this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 96);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Açıklama:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(20, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(28, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Isim:";
+            // 
+            // Label1
+            // 
+            this.Label1.AutoSize = true;
+            this.Label1.Location = new System.Drawing.Point(20, 44);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(21, 13);
+            this.Label1.TabIndex = 1;
+            this.Label1.Text = "ID:";
+            // 
+            // tb_description
+            // 
+            this.tb_description.Location = new System.Drawing.Point(95, 93);
+            this.tb_description.Multiline = true;
+            this.tb_description.Name = "tb_description";
+            this.tb_description.Size = new System.Drawing.Size(282, 42);
+            this.tb_description.TabIndex = 0;
+            // 
+            // tb_ID
+            // 
+            this.tb_ID.Enabled = false;
+            this.tb_ID.Location = new System.Drawing.Point(95, 41);
+            this.tb_ID.Name = "tb_ID";
+            this.tb_ID.Size = new System.Drawing.Size(282, 20);
+            this.tb_ID.TabIndex = 0;
+            // 
+            // tb_Name
+            // 
+            this.tb_Name.Location = new System.Drawing.Point(95, 67);
+            this.tb_Name.Name = "tb_Name";
+            this.tb_Name.Size = new System.Drawing.Size(282, 20);
+            this.tb_Name.TabIndex = 0;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -77,66 +148,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(775, 253);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseClick);
-            // 
-            // tb_Name
-            // 
-            this.tb_Name.Location = new System.Drawing.Point(95, 67);
-            this.tb_Name.Name = "tb_Name";
-            this.tb_Name.Size = new System.Drawing.Size(282, 20);
-            this.tb_Name.TabIndex = 0;
-            // 
-            // tb_description
-            // 
-            this.tb_description.Location = new System.Drawing.Point(95, 93);
-            this.tb_description.Multiline = true;
-            this.tb_description.Name = "tb_description";
-            this.tb_description.Size = new System.Drawing.Size(282, 42);
-            this.tb_description.TabIndex = 0;
-            // 
-            // Label1
-            // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(20, 44);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(21, 13);
-            this.Label1.TabIndex = 1;
-            this.Label1.Text = "ID:";
-            // 
-            // tb_ID
-            // 
-            this.tb_ID.Enabled = false;
-            this.tb_ID.Location = new System.Drawing.Point(95, 41);
-            this.tb_ID.Name = "tb_ID";
-            this.tb_ID.Size = new System.Drawing.Size(282, 20);
-            this.tb_ID.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 70);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Isim:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 96);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Açıklama:";
-            // 
-            // btn_Add
-            // 
-            this.btn_Add.Location = new System.Drawing.Point(420, 39);
-            this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(112, 23);
-            this.btn_Add.TabIndex = 2;
-            this.btn_Add.Text = "Kategori Ekle";
-            this.btn_Add.UseVisualStyleBackColor = true;
-            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // contextMenuStrip1
             // 
@@ -159,16 +170,6 @@
             this.TSMI_Delete.Size = new System.Drawing.Size(116, 22);
             this.TSMI_Delete.Text = "Sil";
             this.TSMI_Delete.Click += new System.EventHandler(this.TSMI_Delete_Click);
-            // 
-            // btn_edit
-            // 
-            this.btn_edit.Location = new System.Drawing.Point(420, 39);
-            this.btn_edit.Name = "btn_edit";
-            this.btn_edit.Size = new System.Drawing.Size(112, 23);
-            this.btn_edit.TabIndex = 2;
-            this.btn_edit.Text = "Düzenle";
-            this.btn_edit.UseVisualStyleBackColor = true;
-            this.btn_edit.Visible = false;
             // 
             // CategoriesForm
             // 
