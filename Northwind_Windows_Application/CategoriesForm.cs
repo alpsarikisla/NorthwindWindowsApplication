@@ -8,11 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DataAccessLayer;
 
 namespace Northwind_Windows_Application
 {
     public partial class CategoriesForm : Form
     {
+        int rowindex = -1;
         public CategoriesForm()
         {
             InitializeComponent();
@@ -21,7 +23,7 @@ namespace Northwind_Windows_Application
             //DataGridDataBound();
             //DataGridDataTableDataBound();
             //DataGridCollectionToDataTableDataBound();
-            UzunYolVeritabaniBaglama();
+            //UzunYolVeritabaniBaglama();
         }
         public void DataGridTemelKonular()
         {
@@ -103,6 +105,80 @@ namespace Northwind_Windows_Application
 
             BindingList<Kategori> araci = new BindingList<Kategori>(kategoriler);
             dataGridView1.DataSource = new BindingSource(araci, null);
+        }
+
+        DataModel dm = new DataModel();
+        private void CategoriesForm_Load(object sender, EventArgs e)
+        {
+            //dataGridView1.DataSource = dm.GetCategoryList();
+            dataGridView1.DataSource = dm.GetCategoryList();
+        }
+
+        private void btn_Add_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(tb_Name.Text))
+            {
+                Category c = new Category();
+                c.CategoryName = tb_Name.Text;
+                c.Description = tb_description.Text;
+                if (dm.AddCategory(c))
+                {
+                    MessageBox.Show("Kategori Eklendi", "Başarılı");
+                    dataGridView1.DataSource = dm.GetCategoryList();
+                }
+                else
+                {
+                    MessageBox.Show("Kategori Eklerken Hata oluştu", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Kategori Adı Boş Bırakılamaz", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                rowindex = dataGridView1.HitTest(e.X, e.Y).RowIndex;
+                if (rowindex >= 0)
+                {
+                    dataGridView1.ClearSelection();
+                    dataGridView1.Rows[rowindex].Selected = true;
+                    contextMenuStrip1.Show(dataGridView1, e.X, e.Y);
+                }
+            }
+        }
+
+        private void TSMI_edit_Click(object sender, EventArgs e)
+        {
+            if (rowindex != -1)
+            {
+                int id = Convert.ToInt32(dataGridView1.Rows[rowindex].Cells["CategoryID"].Value);
+                Category c = dm.GetCategory(id);
+                if (c != null)
+                {
+                    tb_ID.Text = c.CategoryID.ToString();
+                    tb_Name.Text = c.CategoryName;
+                    tb_description.Text = c.Description;
+                    btn_edit.Visible = true;
+                }
+            }
+        }
+
+        private void TSMI_Delete_Click(object sender, EventArgs e)
+        {
+            if (rowindex != -1)
+            {
+                int id = Convert.ToInt32(dataGridView1.Rows[rowindex].Cells["CategoryID"].Value);
+                string name = dataGridView1.Rows[rowindex].Cells["CategoryName"].Value.ToString();
+                if (MessageBox.Show(name + " kategorisini silmek istiyor musunuz", "Kategori Siliniyor", MessageBoxButtons.YesNo)== DialogResult.Yes)
+                {
+                    dm.DeleteCategory(id);
+                }
+                dataGridView1.DataSource = dm.GetCategoryList();
+            }
         }
     }
     class Kategori

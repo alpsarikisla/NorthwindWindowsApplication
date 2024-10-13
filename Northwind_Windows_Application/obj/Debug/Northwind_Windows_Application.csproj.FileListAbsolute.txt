@@ -9,3 +9,6 @@ C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Appl
 C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwind_Windows_Application.csproj.CoreCompileInputs.cache
 C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwind_Windows_Application.exe
 C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwind_Windows_Application.pdb
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\bin\Debug\DataAccessLayer.dll
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\bin\Debug\DataAccessLayer.pdb
+C:\Users\303\Documents\GitHub\NorthwindWindowsApplication\Northwind_Windows_Application\obj\Debug\Northwin.524B0546.Up2Date
